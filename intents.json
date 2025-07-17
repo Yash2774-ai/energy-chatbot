@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! How can I help you with your energy questions today?",
+        "Hi there! Looking to save on electricity or explore clean energy?",
+        "Hey! Need help with energy-saving tips or renewable options?"
+      ]
+    },
+    {
+      "tag": "solar_info",
+      "patterns": ["solar", "solar panel", "tell me about solar", "solar energy", "benefits of solar"],
+      "responses": [
+        "Solar energy is a renewable source that helps reduce your electricity bills and carbon emissions.",
+        "Installing solar panels allows you to generate your own electricity and become energy-independent.",
+        "Solar energy is sustainable, clean, and supported by government subsidies in many areas."
+      ]
+    },
+    {
+      "tag": "solar_calculator",
+      "patterns": ["solar calculator", "calculate solar", "solar bill savings"],
+      "responses": [
+        "Sure! Please tell me your average monthly electricity bill in ₹ to calculate the ideal solar panel setup."
+      ]
+    },
+    {
+      "tag": "appliances",
+      "patterns": ["energy efficient appliances", "best appliances", "which AC is best", "refrigerator recommendation", "suggest appliances", "fridge"],
+      "responses": [
+        "You can consider a 5-star rated LG refrigerator or Voltas Inverter AC. Look for BEE star ratings when buying!",
+        "Inverter ACs, front-load washing machines, and LED bulbs are great energy-saving options.",
+        "Always check for BEE star ratings and avoid using outdated appliances that consume more power."
+      ]
+    },
+    {
+      "tag": "energy_saving",
+      "patterns": [
+        "how to save electricity",
+        "reduce energy bill",
+        "energy saving tips",
+        "save electricity",
+        "cut electricity cost",
+        "reduce bill",
+        "saving energy",
+        "electricity bill",
+        "bill"
+      ],
+      "responses": [
+        "Turn off appliances when not in use, use natural lighting, and replace old bulbs with LEDs.",
+        "Unplug chargers, use ceiling fans instead of ACs, and wash clothes in cold water to reduce power use.",
+        "Choose energy-efficient devices, and avoid standby power consumption by using smart plugs or timers."
+      ]
+    },
+    {
+      "tag": "ujala_scheme",
+      "patterns": ["ujala", "ujala scheme", "led scheme", "government led program", "energy efficient bulbs"],
+      "responses": [
+        "Under the UJALA scheme, you can buy subsidized LED bulbs, tube lights, and fans at affordable rates.",
+        "UJALA (Unnat Jyoti by Affordable LEDs for All) promotes energy efficiency across India with government support.",
+        "Visit https://eeslindia.org or your local electricity board for UJALA scheme availability."
+      ]
+    },
+    {
+      "tag": "wind_energy",
+      "patterns": ["wind", "wind energy", "about wind power"],
+      "responses": [
+        "Wind energy uses turbines to convert wind into electricity. It's clean and renewable.",
+        "Wind turbines are an efficient way to produce electricity without pollution.",
+        "Wind power is growing globally and helps reduce dependence on fossil fuels."
+      ]
+    },
+    {
+      "tag": "geothermal_energy",
+      "patterns": ["geothermal", "geothermal energy", "earth heat energy"],
+      "responses": [
+        "Geothermal energy taps into Earth's internal heat for power and heating.",
+        "It’s a sustainable energy source available 24/7 beneath the surface.",
+        "Geothermal systems are efficient and suitable for both electricity and heating."
+      ]
+    },
+    {
+      "tag": "hydro_energy",
+      "patterns": ["hydro", "hydropower", "hydroelectric"],
+      "responses": [
+        "Hydropower uses flowing water to generate electricity, often via dams.",
+        "It is a clean and reliable source of renewable energy.",
+        "India has many hydroelectric power stations generating clean electricity."
+      ]
+    },
+    {
+      "tag": "bio_energy",
+      "patterns": ["bio", "bioenergy", "biomass", "organic energy"],
+      "responses": [
+        "Bioenergy comes from organic material like plants and waste. It’s a powerful renewable source.",
+        "Biomass can be converted into heat, electricity, or biofuels for transportation.",
+        "Bioenergy reduces agricultural waste and offers a low-carbon alternative to fossil fuels."
+      ]
+    },
+    {
+      "tag": "environment",
+      "patterns": ["environment", "eco friendly", "save environment", "climate change"],
+      "responses": [
+        "Using renewable energy helps reduce pollution, fight climate change, and protect our environment.",
+        "Switching to clean energy supports a greener and more sustainable future.",
+        "Energy efficiency and renewables are key to preserving the environment for future generations."
+      ]
+    },
+    {
+      "tag": "types_of_energy",
+      "patterns": ["types of energy", "renewable sources", "green energy types", "clean energy sources"],
+      "responses": [
+        "There are several renewable sources: solar, wind, hydro, geothermal, and bioenergy.",
+        "Clean energy includes solar, wind, hydroelectric, geothermal, and biomass energy sources.",
+        "Each renewable type plays a role in reducing emissions and dependence on fossil fuels."
+      ]
+    },
+    {
+      "tag": "government_schemes",
+      "patterns": [
+        "government schemes",
+        "energy schemes",
+        "latest government plans",
+        "renewable subsidies",
+        "electricity subsidy",
+        "solar subsidy",
+        "LED subsidy",
+        "MNRE programs",
+        "EESL program",
+        "PM Kusum",
+        "subsidy on panels"
+      ],
+      "responses": [
+        "The Indian government offers several schemes like UJALA for LED distribution and PM-KUSUM for solar farming.",
+        "You can get up to 40% subsidy on rooftop solar panels under MNRE. Visit mnre.gov.in or your local DISCOM site for more.",
+        "Energy Efficiency Services Limited (EESL) runs various programs to promote energy-efficient appliances and lighting."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit", "quit"],
+      "responses": [
+        "Goodbye! Stay energy-smart!",
+        "See you again. Save energy, save the planet!",
+        "Thanks for chatting. Keep reducing your carbon footprint!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn’t quite get that. Try asking about solar, wind, government schemes, or saving energy."
+      ]
+    }
+  ]
+}
